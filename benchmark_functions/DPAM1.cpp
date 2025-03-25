@@ -282,8 +282,7 @@ bool run_pb(size_t ctype)
 // Main function
 int main(int argc, char **argv)
 {
-    //std::vector<size_t> ctype{4}; // Only 4 is feasible
-    std::vector<size_t> ctype{0}; // Only 4 is feasible
+    std::vector<size_t> ctype{0, 4}; // Only 4 is feasible
     for (const auto celt : ctype)
     {
         run_pb(celt);

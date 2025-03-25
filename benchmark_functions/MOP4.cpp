@@ -251,8 +251,7 @@ bool run_pb(size_t n, size_t ctype)
 // Main function
 int main(int argc, char **argv)
 {
-    //std::vector<size_t> ctype{1, 2, 3, 4, 5, 6};
-    std::vector<size_t> ctype{0};
+    std::vector<size_t> ctype{0, 1, 2, 3, 4, 5, 6};
     for (const auto celt : ctype)
     {
         run_pb(3, celt);
